@@ -1,0 +1,33 @@
+{
+  "inspected_at": "2026-11-08T00:40:15.378805+00:00",
+  "sha256": "0b5466a8a6e8eabdd3121b2d854a1a04108e969f920abedf95d243982e539363",
+  "bytes": 261086,
+  "agency_names": [
+    "京成バス千葉ウエスト株式会社　塩浜営業所"
+  ],
+  "stop_count": 233,
+  "route_count": 16,
+  "trip_count": 802,
+  "target_stop_name_matches": [],
+  "target_route_name_matches": [],
+  "feed_info": [
+    {
+      "feed_publisher_name": "京成バス千葉ウエスト株式会社　塩浜営業所",
+      "feed_publisher_url": "https://www.transitbus.co.jp/web/",
+      "feed_lang": "ja",
+      "feed_start_date": "20260401",
+      "feed_end_date": "20270401",
+      "feed_version": "20260306"
+    }
+  ],
+  "target_route_data_verified": false,
+  "scope": "Name screening only; positive matches still require stop_times, service dates, direction and boarding/alighting validation",
+  "source_url": "https://api.gtfs-data.jp/v2/organizations/keisei-transitbus/feeds/keiseitransitbus/files/feed.zip?uid=1cbf6425-88e7-41ea-8f83-bddacf7983e1",
+  "first_retrieved_at": "2026-11-08T00:36:55.516402+00:00",
+  "first_http_status": 200,
+  "data_attribution": "京成バス千葉ウエスト株式会社 塩浜営業所 / GTFSデータリポジトリ",
+  "data_license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+  "modification": "Counts and name-match results derived from the original GTFS; original ZIP omitted",
+  "conclusion": "EXCLUDED_NOT_NAGANUMA_OFFICE"
+}

@@ -1,0 +1,351 @@
+{
+  "purpose": "Public catalog discovery, not target-service verification",
+  "metadata_attribution": "GTFSデータリポジトリ / 一般社団法人社会基盤情報流通推進協議会 (AIGID)",
+  "metadata_license": "CC BY 4.0 (repository terms, Article 5.2)",
+  "metadata_terms_url": "http://docs.gtfs-data.jp/site/kiyaku.pdf",
+  "modification": "Selected metadata fields; contact fields omitted",
+  "target_route_data_verified": false,
+  "results": [
+    {
+      "url": "https://api.gtfs-data.jp/v2/feeds?pref=12",
+      "retrieved_at": "2026-11-08T00:40:14.193731+00:00",
+      "http_status": 200,
+      "decoded_body_sha256": "d16999e1958cd609fe3d8da197fd55f260b8392a0c612d324b6c1e6918e097f8",
+      "record_count": 11,
+      "records": [
+        {
+          "organization_id": "chiba-rainbow-bus",
+          "organization_name": "ちばレインボーバス株式会社",
+          "feed_id": "chibarainbowbus",
+          "feed_name": "ちばレインボーバス",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2024-10-01",
+          "latest_feed_end_date": "2025-09-30",
+          "last_published_at": "2024-10-08",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "inzaicity",
+          "organization_name": "印西市",
+          "feed_id": "rosenbus",
+          "feed_name": "宗像路線、六合路線",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2026-07-01",
+          "latest_feed_end_date": "2028-03-31",
+          "last_published_at": "2026-06-22",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "katoricity",
+          "organization_name": "香取市",
+          "feed_id": "katori-junkan",
+          "feed_name": "香取市循環バス",
+          "feed_license": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "latest_feed_start_date": "2026-11-01",
+          "latest_feed_end_date": "2027-04-30",
+          "last_published_at": "2026-10-04",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "keisei-transitbus",
+          "organization_name": "京成バス千葉ウエスト株式会社",
+          "feed_id": "keiseitransitbus",
+          "feed_name": "京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2026-04-01",
+          "latest_feed_end_date": "2027-04-01",
+          "last_published_at": "2026-03-18",
+          "real_time": {
+            "trip_update_url": "https://s3-ajt-mobusta-gtfs.s3.ap-northeast-1.amazonaws.com/realtime/35/trip_updates.bin",
+            "vehicle_position_url": "https://s3-ajt-mobusta-gtfs.s3.ap-northeast-1.amazonaws.com/realtime/35/vehicle_position.bin",
+            "alert_url": "https://s3-ajt-mobusta-gtfs.s3.ap-northeast-1.amazonaws.com/realtime/35/alerts.bin",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "kimitsucity",
+          "organization_name": "君津市",
+          "feed_id": "Kimitsu_City_Community_Bus",
+          "feed_name": "君津市コミュニティバス",
+          "feed_license": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "latest_feed_start_date": "2026-03-01",
+          "latest_feed_end_date": "2027-03-31",
+          "last_published_at": "2026-06-01",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "kimitsucity",
+          "organization_name": "君津市",
+          "feed_id": "Local_buses_via_Kimitsu_City",
+          "feed_name": "君津市経由路線バス",
+          "feed_license": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "latest_feed_start_date": "2026-10-01",
+          "latest_feed_end_date": "2027-03-31",
+          "last_published_at": "2026-09-30",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "matsudocity",
+          "organization_name": "松戸市",
+          "feed_id": "matsudo",
+          "feed_name": "松戸市ゆめいろバス",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2026-08-03",
+          "latest_feed_end_date": "2027-03-31",
+          "last_published_at": "2026-06-25",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "matsudocity",
+          "organization_name": "松戸市",
+          "feed_id": "matsudo-takatsuka",
+          "feed_name": "松戸市ゆめいろワゴンバス",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2026-08-03",
+          "latest_feed_end_date": "2027-03-31",
+          "last_published_at": "2026-07-22",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "nagareyamacity",
+          "organization_name": "流山市",
+          "feed_id": "nagareyamagreenbus",
+          "feed_name": "流山ぐりーんバス",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2025-10-01",
+          "latest_feed_end_date": "2027-01-10",
+          "last_published_at": "2026-01-13",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "naritacity",
+          "organization_name": "成田市",
+          "feed_id": "narita-community-bus",
+          "feed_name": "成田市コミュニティバス",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2026-04-01",
+          "latest_feed_end_date": "2026-12-30",
+          "last_published_at": "2026-02-13",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        },
+        {
+          "organization_id": "yotsukaidocity",
+          "organization_name": "四街道市",
+          "feed_id": "yoppii",
+          "feed_name": "市内循環バス「ヨッピィ」",
+          "feed_license": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "latest_feed_start_date": "2026-04-01",
+          "latest_feed_end_date": "2027-03-31",
+          "last_published_at": "2025-12-15",
+          "real_time": {
+            "trip_update_url": "",
+            "vehicle_position_url": "",
+            "alert_url": "",
+            "update_interval": 0
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://api.gtfs-data.jp/v2/feeds?org_name=%E4%BA%AC%E6%88%90",
+      "retrieved_at": "2026-11-08T00:40:14.785094+00:00",
+      "http_status": 200,
+      "decoded_body_sha256": "4e59620efb92be88100a0502c7dcdeff8634aa927203826d7762b894b7970890",
+      "record_count": 1,
+      "records": [
+        {
+          "organization_id": "keisei-transitbus",
+          "organization_name": "京成バス千葉ウエスト株式会社",
+          "feed_id": "keiseitransitbus",
+          "feed_name": "京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）",
+          "feed_license": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "latest_feed_start_date": "2026-04-01",
+          "latest_feed_end_date": "2027-04-01",
+          "last_published_at": "2026-03-18",
+          "real_time": {
+            "trip_update_url": "https://s3-ajt-mobusta-gtfs.s3.ap-northeast-1.amazonaws.com/realtime/35/trip_updates.bin",
+            "vehicle_position_url": "https://s3-ajt-mobusta-gtfs.s3.ap-northeast-1.amazonaws.com/realtime/35/vehicle_position.bin",
+            "alert_url": "https://s3-ajt-mobusta-gtfs.s3.ap-northeast-1.amazonaws.com/realtime/35/alerts.bin",
+            "update_interval": 0
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://api.gtfs-data.jp/v2/files?pref=12&target_date=2026-11-08",
+      "retrieved_at": "2026-11-08T00:40:15.322670+00:00",
+      "http_status": 200,
+      "decoded_body_sha256": "d51b3f49424f6ebb35ef5e7e38376fd981d0daedc12f7847b5a34cefb2d0689e",
+      "record_count": 10,
+      "records": [
+        {
+          "organization_id": "inzaicity",
+          "organization_name": "印西市",
+          "feed_id": "rosenbus",
+          "feed_name": "宗像路線、六合路線",
+          "feed_license_id": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "file_from_date": "2026-07-01",
+          "file_to_date": "2028-03-31",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/inzaicity/feeds/rosenbus/files/feed.zip?uid=18d6d465-505c-40d2-8c0d-f6c5569e5f85"
+        },
+        {
+          "organization_id": "katoricity",
+          "organization_name": "香取市",
+          "feed_id": "katori-junkan",
+          "feed_name": "香取市循環バス",
+          "feed_license_id": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "file_from_date": "2026-11-01",
+          "file_to_date": "2027-04-30",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/katoricity/feeds/katori-junkan/files/feed.zip?uid=a61ce20b-76c8-4534-bda1-348756f97fda"
+        },
+        {
+          "organization_id": "keisei-transitbus",
+          "organization_name": "京成バス千葉ウエスト株式会社",
+          "feed_id": "keiseitransitbus",
+          "feed_name": "京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）",
+          "feed_license_id": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "file_from_date": "2026-04-01",
+          "file_to_date": "2027-04-01",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/keisei-transitbus/feeds/keiseitransitbus/files/feed.zip?uid=1cbf6425-88e7-41ea-8f83-bddacf7983e1"
+        },
+        {
+          "organization_id": "kimitsucity",
+          "organization_name": "君津市",
+          "feed_id": "Local_buses_via_Kimitsu_City",
+          "feed_name": "君津市経由路線バス",
+          "feed_license_id": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "file_from_date": "2026-10-01",
+          "file_to_date": "2027-03-31",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/kimitsucity/feeds/Local_buses_via_Kimitsu_City/files/feed.zip?uid=70de845e-ab60-420a-95a0-9cda7b0ea47b"
+        },
+        {
+          "organization_id": "kimitsucity",
+          "organization_name": "君津市",
+          "feed_id": "Kimitsu_City_Community_Bus",
+          "feed_name": "君津市コミュニティバス",
+          "feed_license_id": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "file_from_date": "2026-03-01",
+          "file_to_date": "2027-03-31",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/kimitsucity/feeds/Kimitsu_City_Community_Bus/files/feed.zip?uid=e7859973-b3eb-41a8-bda2-7f693120ecd5"
+        },
+        {
+          "organization_id": "matsudocity",
+          "organization_name": "松戸市",
+          "feed_id": "matsudo",
+          "feed_name": "松戸市ゆめいろバス",
+          "feed_license_id": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "file_from_date": "2026-08-03",
+          "file_to_date": "2027-03-31",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/matsudocity/feeds/matsudo/files/feed.zip?uid=4ec96dd2-3620-4ea1-9c3e-e5cb35b04033"
+        },
+        {
+          "organization_id": "matsudocity",
+          "organization_name": "松戸市",
+          "feed_id": "matsudo-takatsuka",
+          "feed_name": "松戸市ゆめいろワゴンバス",
+          "feed_license_id": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "file_from_date": "2026-08-03",
+          "file_to_date": "2027-03-31",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/matsudocity/feeds/matsudo-takatsuka/files/feed.zip?uid=9558b6ea-ac6e-44f5-9a2c-77a0a963dc88"
+        },
+        {
+          "organization_id": "nagareyamacity",
+          "organization_name": "流山市",
+          "feed_id": "nagareyamagreenbus",
+          "feed_name": "流山ぐりーんバス",
+          "feed_license_id": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "file_from_date": "2025-10-01",
+          "file_to_date": "2027-01-10",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/nagareyamacity/feeds/nagareyamagreenbus/files/feed.zip?uid=8e1203f4-67de-465f-a0fe-6522914d8b4a"
+        },
+        {
+          "organization_id": "naritacity",
+          "organization_name": "成田市",
+          "feed_id": "narita-community-bus",
+          "feed_name": "成田市コミュニティバス",
+          "feed_license_id": "CC BY 4.0",
+          "feed_license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+          "file_from_date": "2026-04-01",
+          "file_to_date": "2026-12-30",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/naritacity/feeds/narita-community-bus/files/feed.zip?uid=1a9fa450-1b9e-4483-b698-dc94c4d26cf0"
+        },
+        {
+          "organization_id": "yotsukaidocity",
+          "organization_name": "四街道市",
+          "feed_id": "yoppii",
+          "feed_name": "市内循環バス「ヨッピィ」",
+          "feed_license_id": "CC0 1.0",
+          "feed_license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+          "file_from_date": "2026-04-01",
+          "file_to_date": "2027-03-31",
+          "file_url": "https://api.gtfs-data.jp/v2/organizations/yotsukaidocity/feeds/yoppii/files/feed.zip?uid=07ebe4dd-9c57-44d9-b7ce-82d1638365b2"
+        }
+      ]
+    }
+  ]
+}
