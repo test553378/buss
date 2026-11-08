@@ -1,0 +1,48 @@
+{
+  "observations": [
+    {
+      "url": "https://ckan.odpt.org/dataset/?q=%E4%BA%AC%E6%88%90",
+      "http_status": 200,
+      "retrieved_at": "2026-11-08T00:34:35.950606+00:00",
+      "body_sha256": "9586b572f2664b8b35c474d2efd218e1109ffd835dcd2707728614bcb545ac6b",
+      "query": "京成",
+      "observed_result_count": 2,
+      "observed_scope": [
+        "千葉ウエスト静的",
+        "千葉ウエストリアルタイム"
+      ],
+      "target_route_data_verified": false
+    },
+    {
+      "url": "https://ckan.odpt.org/dataset/?q=%E9%95%B7%E6%B2%BC",
+      "http_status": 200,
+      "retrieved_at": "2026-11-08T00:34:36.114801+00:00",
+      "body_sha256": "a916d472128aae1cdf3e12c9ad5b511bba22452dd5c1a263437cf1af50f08d5d",
+      "query": "長沼",
+      "observed_result_count": 1,
+      "observed_scope": [
+        "西東京バス"
+      ],
+      "target_route_data_verified": false
+    },
+    {
+      "url": "https://ckan.odpt.org/dataset/?q=%E5%8D%83%E8%91%89%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB",
+      "http_status": 200,
+      "retrieved_at": "2026-11-08T00:34:36.279351+00:00",
+      "body_sha256": "906119f1d7424763c50fa14d65f87d5e49957072bf28ba231a98e288a83cbbd7",
+      "query": "千葉セントラル",
+      "observed_result_count": 0,
+      "observed_scope": [],
+      "target_route_data_verified": false
+    },
+    {
+      "url": "https://transfer-cloud.navitime.biz/keiseibus-group/courses?busstop=00021389",
+      "method": "GET",
+      "http_status": 403,
+      "retrieved_at_utc": "2026-11-08T00:33:44Z",
+      "response_class": "CloudFront Request blocked",
+      "target_route_data_verified": false,
+      "note": "No bypass or internal API collection implemented; response body not redistributed"
+    }
+  ]
+}
